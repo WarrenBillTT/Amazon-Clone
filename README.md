@@ -1,8 +1,8 @@
-# 🛒 Amazon Clone
+# Amazon Clone
 
 A full-stack e-commerce web application inspired by Amazon, built with **React**, **Firebase**, and **Stripe**, featuring authentication, a shopping basket, and checkout with real payment processing.
 
-🔗 **Live Demo:** 
+🔗 **Live Demo:** Coming soon
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
 ![Firebase](https://img.shields.io/badge/Firebase-8-FFCA28?logo=firebase&logoColor=black)
@@ -11,18 +11,18 @@ A full-stack e-commerce web application inspired by Amazon, built with **React**
 
 ---
 
-## 📖 About the Project
+## About the Project
 
 This project is a clone of Amazon's core shopping experience, including:
-- **Authentication** — sign up / sign in with Firebase Auth
-- **Product Listing** — browse products on the home page
-- **Shopping Basket** — add and remove items using React Context + a reducer (`StateProvider` / `reducer.js`)
-- **Checkout** — review basket items and subtotal before payment
-- **Payments** — secure card payments powered by Stripe Elements
-- **Order History** — view past orders after successful payment, stored in Firestore
-- **Cloud Functions** — a Firebase Functions backend (Express + Stripe) handles payment intent creation
+- **Authentication**: sign up / sign in with Firebase Auth
+- **Product Listing**: browse products on the home page
+- **Shopping Basket**: add and remove items using React Context + a reducer (`StateProvider` / `reducer.js`)
+- **Checkout**: review basket items and subtotal before payment
+- **Payments**: secure card payments powered by Stripe Elements
+- **Order History**: view past orders after successful payment, stored in Firestore
+- **Cloud Functions**: a Firebase Functions backend (Express + Stripe) handles payment intent creation
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |---|---|
@@ -35,7 +35,7 @@ This project is a clone of Amazon's core shopping experience, including:
 | HTTP Client | Axios |
 | Utilities | Moment.js, react-currency-format |
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 Amazon-Clone-main/
@@ -62,7 +62,7 @@ Amazon-Clone-main/
 └── package.json
 ```
 
-## 🚀 Getting Started
+## Getting Started
 
 1. **Clone the repository**
    ```bash
@@ -99,7 +99,7 @@ Amazon-Clone-main/
    npm run build
    ```
 
-## 📜 Available Scripts
+## Available Scripts
 
 | Command | Description |
 |---|---|
@@ -108,10 +108,10 @@ Amazon-Clone-main/
 | `npm test` | Runs tests |
 | `firebase deploy` | Deploys the app and functions to Firebase Hosting |
 
-## ⚠️ Note
+## Note
 
 This project uses Stripe **test mode** keys and is intended for learning/demo purposes. Do not use it to process real payments without replacing the keys with your own production credentials and securing them properly (never commit real secret keys to version control).
 
-## 📄 License
+## License
 
 This project was built for personal/educational use. Feel free to use it as a reference, but please don't copy it identically for your own portfolio.
