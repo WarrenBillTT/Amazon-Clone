@@ -2,6 +2,8 @@
 
 A full-stack e-commerce web application inspired by Amazon, built with **React**, **Firebase**, and **Stripe**, featuring authentication, a shopping basket, and checkout with real payment processing.
 
+![Image](https://github.com/WarrenBillTT/Amazon-Clone/blob/main/amazon-clone.png?raw=true)
+
 🔗 **Live Demo:** Coming soon
 
 ![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)
